@@ -1,0 +1,39 @@
+<header class="header">
+
+  <div class="container">
+
+    <a class="header-logo grid-4" href="{{ site.baseurl }}/">
+      <img src="/assets/images/logo-william-roger.svg" alt="Logotipo William Roger">
+    </a>
+
+    <nav class="header-nav grid-9">
+      <ul>
+        <li>
+          <a href="{{ site.baseurl }}/" class="{% if page.url == '/' %} menu-ativo {% endif %}">Blog</a>
+        </li><!--
+        --><li>
+          <a href="{{ site.baseurl }}/sobremim.html" class="{% if page.url == '/sobremim.html'%} menu-ativo {% endif %}">Sobre mim</a>
+        </li><!--
+        --><li>
+          <a href="{{ site.baseurl }}/portfolio.html" class="{% if page.url == '/portfolio.html' or page.url == '/portfolio-2.html'%} menu-ativo {% else %} {% endif %}">Portfólio</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="redes-sociais grid-2">
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/williamrogerweb" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </li><!--
+     --><li>
+          <a href="https://twitter.com/William_Roger" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </li><!--
+     --><li>
+          <a href="https://github.com/WilliamRoger" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+</header>
