@@ -195,7 +195,7 @@ img {
 /*************************** Header ***************************/
 .header {
   width: 100%;
-  background: url("../assets/images/bg-header.jpg") no-repeat;
+  background: url("../assets/images/bg-header.jpg");
   height: 130px;
   position: fixed;
   z-index: 1;
@@ -758,7 +758,7 @@ img {
 /*************************** Footer ***************************/
 .footer {
   width: 100%;
-  background: url("../assets/images/bg-header.jpg") no-repeat;
+  background: url("../assets/images/bg-header.jpg");
   height: 90px;
 }
 .footer p {
